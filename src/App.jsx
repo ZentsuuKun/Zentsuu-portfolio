@@ -23,7 +23,7 @@ const portfolioData = {
       title: "TTANGKUET GREEN FARM E-COMMERCE PLATFORM",
       description: "A fully featured online shopping experience with cart functionality, payment gateways, and user authentication.",
       tags: ["PHP", "SQL"],
-      image: "./pics/ecc.png",
+      image: "/pics/ecc.png",
       demoLink: "http://ttangkeutgreenfarm.page.gd",
       codeLink: "http://ttangkeutgreenfarm.page.gd"
     },
@@ -31,7 +31,7 @@ const portfolioData = {
       title: "Excuse letter generator",
       description: "Another amazing app with AI features.",
       tags: ["react", "tailwind"],
-      image: "./pics/exc.png",
+      image: "/pics/exc.png",
       demoLink: "https://excusegen.vercel.app",
       codeLink: "https://excusegen.vercel.app"
     },
@@ -47,12 +47,12 @@ const portfolioData = {
     {
       title: "E-commercce Interface",
       category: "Figma",
-      image: "./pics/ui1.png"
+      image: "/pics/ui1.png"
     },
     {
       title: "E-ccomerce Admin Interface",
       category: "Figma",
-      image: "./pics/ui2.png"
+      image: "/pics/ui2.png"
     },
 
 
@@ -390,7 +390,7 @@ export default function Portfolio() {
               : 'bg-gray-100 border-gray-300 group-hover:border-neon'
               }`}>
             <img
-              src="pics/reg.jpg"
+              src="/pics/reg.jpg"
               className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-125 group-hover:brightness-110 group-hover:-rotate-2 ${isAboutImageVisible ? 'animate-fade-to-color' : 'grayscale opacity-70'
                 } group-hover:grayscale-0`}
             />
