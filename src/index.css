@@ -21,9 +21,7 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
+/* Smooth scroll removed to prevent jank with scroll animations */
 
 body {
   background-color: #000000;

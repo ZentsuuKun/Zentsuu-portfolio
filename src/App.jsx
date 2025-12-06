@@ -230,17 +230,21 @@ export default function Portfolio() {
   const [visibleSections, setVisibleSections] = useState(new Set());
   const sectionRefs = useRef({});
 
-  // Scroll animation observer
+  // Scroll animation observer with optimized settings
   useEffect(() => {
     const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -100px 0px'
+      threshold: 0.15,
+      rootMargin: '0px'
     };
 
     const observerCallback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          setVisibleSections((prev) => new Set([...prev, entry.target.id]));
+          setVisibleSections((prev) => {
+            const newSet = new Set(prev);
+            newSet.add(entry.target.id);
+            return newSet;
+          });
         }
       });
     };
