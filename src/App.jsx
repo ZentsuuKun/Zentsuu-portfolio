@@ -328,16 +328,16 @@ export default function Portfolio() {
         </header>
 
         {/* HERO */}
-        <section className="relative min-h-screen flex flex-col justify-center items-center px-6 py-20">
-          <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-2 z-10">
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9]">
+        <section className="relative min-h-screen flex flex-col justify-center items-center px-4 md:px-6 py-20">
+          <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+            <div className="space-y-4 md:space-y-2 z-10 text-center lg:text-left">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9]">
                 <div className="block">ASPIRING FRONT-END</div>
                 <div className={`block ${isDark ? 'text-outline' : 'text-black'}`}>DEVELOPER</div>
                 <div className="block">PORTFOLIO</div>
               </h1>
-              <div className="h-1 w-24 bg-neon mt-8 mb-8"></div>
-              <p className={`max-w-lg text-base uppercase tracking-wide ${isDark ? 'text-gray-100' : 'text-black'
+              <div className="h-1 w-24 bg-neon mt-6 mb-6 mx-auto lg:mx-0"></div>
+              <p className={`max-w-lg text-sm sm:text-base uppercase tracking-wide mx-auto lg:mx-0 ${isDark ? 'text-gray-100' : 'text-black'
                 }`}>
                 Transforming designs into pixel-perfect, interactive experiences that not only capture attention but also elevate user engagement.
               </p>
@@ -345,7 +345,7 @@ export default function Portfolio() {
               <a
                 href="/Rodney Onias CV.pdf"
                 download="Rodney Onias CV.pdf"
-                className={`inline-flex items-center gap-2 mt-8 px-6 py-3 border-2 font-bold uppercase text-sm tracking-widest transition-all duration-300 hover:scale-105 ${isDark
+                className={`inline-flex items-center gap-2 mt-6 md:mt-8 px-6 py-3 border-2 font-bold uppercase text-sm tracking-widest transition-all duration-300 hover:scale-105 ${isDark
                   ? 'border-neon text-neon hover:bg-neon hover:text-black'
                   : 'border-black text-black hover:bg-black hover:text-white'
                   }`}
@@ -359,9 +359,9 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <div className="relative h-[650px] flex justify-center items-center">
+            <div className="relative h-[450px] sm:h-[500px] md:h-[600px] lg:h-[650px] flex justify-center items-center">
               {/* ID Card Positioned Here */}
-              <div className="scale-100 lg:scale-125 transform translate-y-10">
+              <div className="scale-75 sm:scale-90 md:scale-100 lg:scale-125 transform translate-y-10">
                 <LanyardBadge />
               </div>
             </div>
