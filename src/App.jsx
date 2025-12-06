@@ -330,7 +330,7 @@ export default function Portfolio() {
         {/* HERO */}
         <section className="relative min-h-screen flex flex-col justify-center items-center px-4 md:px-6 py-20">
           <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-            <div className="space-y-4 md:space-y-2 z-10 text-center lg:text-left">
+            <div className="space-y-4 md:space-y-2 z-10 text-center lg:text-left order-2 lg:order-1">
               <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight sm:leading-[0.9]">
                 <div className="block">ASPIRING</div>
                 <div className="block">FRONT-END</div>
@@ -360,7 +360,7 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <div className="relative h-[450px] sm:h-[500px] md:h-[600px] lg:h-[650px] flex justify-center items-center">
+            <div className="relative h-[450px] sm:h-[500px] md:h-[600px] lg:h-[650px] flex justify-center items-center order-1 lg:order-2">
               {/* ID Card Positioned Here */}
               <div className="scale-75 sm:scale-90 md:scale-100 lg:scale-125 transform translate-y-10">
                 <LanyardBadge />
