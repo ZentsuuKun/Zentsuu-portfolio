@@ -35,9 +35,14 @@ const portfolioData = {
       demoLink: "https://excusegen.vercel.app",
       codeLink: "https://excusegen.vercel.app"
     },
-
-
-
+    {
+      title: "CoreX: Messaging website",
+      description: "Add your project description here. Describe what makes this project unique and the problems it solves.",
+      tags: ["Node.js", "React", "Tailwind CSS", "Socket.io, Firebase"],
+      image: "/pics/corex.png",
+      demoLink: "https://corex-kappa.vercel.app",
+      codeLink: "https://corex-kappa.vercel.app"
+    }
   ],
   skills: [
     { name: "HTML", icon: Code2 },
