@@ -29,7 +29,7 @@ const portfolioData = {
     },
     {
       title: "Excuse letter generator",
-      description: "Another amazing app with AI features.",
+      description: "A lightweight web application built with React and Tailwind CSS that leverages AI to automate letter writing. It features a custom tone selector and an integrated Copy to Clipboard function for a seamless user experience.",
       tags: ["react", "tailwind"],
       image: "/pics/exc.png",
       demoLink: "https://excusegen.vercel.app",
@@ -37,8 +37,8 @@ const portfolioData = {
     },
     {
       title: "CoreX: Messaging website",
-      description: "Add your project description here. Describe what makes this project unique and the problems it solves.",
-      tags: ["Node.js", "React", "Tailwind CSS", "Socket.io, Firebase"],
+      description: "Corex is a full-stack real-time chat application designed for speed and security. By combining the power of Node.js and React, it delivers a fluid, modern messaging experience that solves the need for instant, reliable communication.",
+      tags: ["Node.js", "React", "Tailwind CSS", "Socket.io", "Firebase"],
       image: "/pics/corex.png",
       demoLink: "https://corex-kappa.vercel.app",
       codeLink: "https://corex-kappa.vercel.app"
